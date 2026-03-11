@@ -26,10 +26,9 @@ function SuccessMessage({ message }: { message: string }) {
               />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
             Connected Successfully!
           </h2>
-          <p className="text-gray-600 mb-6">{message}</p>
           <button
             onClick={() => window.location.href = "/"}
             className="w-full px-6 py-3 bg-black text-white rounded-xl font-medium hover:bg-gray-800 transition-colors"
