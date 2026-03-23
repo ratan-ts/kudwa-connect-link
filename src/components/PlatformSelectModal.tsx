@@ -152,7 +152,9 @@ export default function PlatformSelectModal({
         <div className="flex-1 overflow-y-auto px-6 pb-24">
           {filteredIntegrations.length === 0 ? (
             <div className="py-12 text-center text-gray-500">
-              <p>No integrations found matching "{searchQuery}"</p>
+              <p>
+                No integrations found matching &ldquo;{searchQuery}&rdquo;
+              </p>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
